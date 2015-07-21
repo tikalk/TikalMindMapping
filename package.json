@@ -4,7 +4,7 @@
   "description": "Mapping of Tikal Employee skills",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,6 @@
   "bugs": {
     "url": "https://github.com/tikalk/TikalMindMapping/issues"
   },
-  "scripts":{
-    "start" : "node index"
-  },
   "homepage": "https://github.com/tikalk/TikalMindMapping#readme",
   "dependencies": {
     "babel": "^5.6.23",
@@ -31,6 +28,8 @@
     "orientjs": "*"
   },
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.0.4"
   }
 }
