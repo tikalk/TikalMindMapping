@@ -70,7 +70,13 @@ angular.module('mindmapApp')
                         .data(graphData.src)
                         .enter()
                         .append("circle")
-                        .attr("r", 20)
+                        .attr("r", function(d) {
+                            var radius = 20;
+                            if (d.rating) {
+                                radius = 10 + (2* d.rating);
+                            }
+                            return radius;
+                        })
                         .attr("opacity", 0.5)
                         .style("fill", function(d) {
                             var clr = '#f00';
