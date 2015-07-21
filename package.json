@@ -28,7 +28,7 @@
   "dependencies": {
     "babel": "^5.6.23",
     "express": "^4.13.1",
-    "oriento": "^1.2.0"
+    "orientjs": "*"
   },
   "devDependencies": {
     "gulp": "^3.9.0"
