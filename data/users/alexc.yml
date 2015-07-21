@@ -1,0 +1,28 @@
+---
+id: 19634
+login: alexc
+first_name: Alexander
+last_name: Chertkov
+description: JavaScript Sr. Developer
+about: ''
+follow_me_urls: []
+permalink: /js/alexc
+skills:
+  expert_skills:
+    JSON: '4'
+    Binding Events: '4'
+  developer_skills:
+    Cross Browser Development: '4'
+    JS Object Types: '5'
+    Javascript Optimizing For Performance: '5'
+    Creating Custom JS Classes: '4'
+    Extending JS Classes: '4'
+    Javascript Scopes: '4'
+    PHP: '5'
+    AJAX: '5'
+    Jquery: '4'
+    FireBug: '5'
+    HTML: '8'
+    XHTML: '4'
+    Cross Browser: '4'
+    CSS: '5'

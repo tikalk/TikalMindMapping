@@ -1,0 +1,74 @@
+---
+id: 137
+login: timor
+first_name: Timor
+last_name: Raiman
+description: ALM & DevOps Professional
+about: 'Experienced Software Engineer, ALM Consultant and DevOps in a WEB environment'
+follow_me_urls: ['https://www.linkedin.com/profile/view?id=253246103&authType=NAME_SEARCH&authToken=enZ6&locale=en_US&trk=tyah2&trkInfo=tarId%3A1418057612751%2Ctas%3Atimor%2Cidx%3A2-1-2']
+image_path: pictures/Timor_Raiman.jpg
+permalink: devops/timor
+
+skills:
+  expert_skills:
+    Bash: '14'
+    Python: '10'
+    Linux OS: '15'
+    AWS: '1'
+    Jenkins: '2'
+    Puppet: '1'
+    GIT: '5'
+    Nexus: '2'
+    Fabric: '1'
+    Vagrant: '1'
+    Gradle: '2'
+  developer_skills:
+   Ruby: '1'
+   No-SQL: '1'
+   Virtualization: '1'
+   Openstack: '1'
+   Docker: '1'
+    
+experience:
+- title: DevOps & ALM Engineer @ Everything.me
+  years: '2013-Today'
+  description: 
+   "Project:\n\n
+   - Everything.me launcher for android\n
+   - Android launcher app\n
+   - Backend clusters on amazon in multiple regions\n\n
+   Main Tasks:\n\n
+   - Keep production backend systems functional\n
+   - Develop automactic provisioning and deployment tools\n
+   - Develop and configure build tools\n
+   - Develop automatic configuration of production and testing environmets\n\n
+   Main technologies used:\n\n
+   - Python, chef, fabric, jenkins, docker, vagrant\n
+   - Amazon Clound Formation + rainbow-cfn (contributed-to)\n
+   - Amazon ec2, s3, route52, vpc\n
+   - Scribe, nagios, kibanna, graphite\n
+   - Mysql (w. replication), redis, cassandra\n
+   - Gitlab, openvpn\n\n
+   Additional:\n\n
+   - fix jenkins ec2 plugin\n
+   - fix bugs in vagrant bershelf plugin\n"
+- title: DevOps & ALM Engineer @ HP
+  years: '2013-2013' 
+  description: "Achieve automation of clients’ development environments and CI/CD lifecycles.\n\n
+   Main Tasks:\n\n
+   - Automate building of multi-module projects under Maven (Java/Spring,Android), xCode+CocoaPods, MSBuild in Jenkins CI environment\n
+   - Extend Jenkins plugins (xunit, jobgenerator, multijob) in Java & Groovy\n
+   - Steer development team with respect to project architecture and testing\n
+   - Automate CloudStack API from python scripts\n
+   - Automate baremetal deployment using Razor + Chef\n
+   - Automate router & switch configuration using cheetah templates\n
+   - Abstract infrastructure layout as a data model\n"
+- title: DevOps & ALM Engineer @ Alcatel- Lucent
+  years: '2012-2013' 
+  description: "Main Tasks:\n\n
+   - Provide consulting services in automation of clients’ development environments\n
+   - Automate CloudStack API from python scripts\n
+   - Automate baremetal deployment using Razor + Chef\n
+   - Automate router & switch configuration using cheetah templates\n
+   - Abstract infrastructure layout as a data model\n"
+

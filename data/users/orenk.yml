@@ -1,0 +1,51 @@
+---
+id: 
+login: orenk
+first_name: Oren
+last_name: Kleks
+description: Java Senior Expert
+about: ''
+follow_me_urls:
+  - https://www.linkedin.com/profile/view?id=10792064
+permalink: /java/orenk
+image_path: pictures/orenk.jpg
+
+skills:
+  expert_skills:
+    Developing Java Classes: '15'
+    Using threads: '15'
+    Designing Database Schema: '10'
+    Implementing Data Access Classes: '10'
+    Hibernate: '10'
+    Spring: '10'
+    EJB / EJB 3: '10'
+    JPA: '10'
+    JDBC: '10'
+    JSP & TagLib: '10'
+    MyFaces: '10'
+    GWT: '5'
+    JBoss: '10'
+    Tomcat: '10'
+    Performance: '10'
+    Tuning: '10'
+    ANT: '10'
+    Maven2: '10'
+  developer_skills:
+    SQL: '8'
+    Creating ERD: '7'
+    Writing SQL Statements: '7'
+    Optimization and Tuning : '3'
+    Struts/Struts2: '10'
+    Hudson / Jenkins: '1'
+experience:
+- title: Java Senior Developer @Ceragon Networks
+  years: '2014-Present'
+  description: "Developing NMS for Ceragon  microwave backhaul line of products. Managing thousands of devices. Involved in mentoring , performance tuning, design and development. \n\n
+                * Technologies used: JBoss, Hibernate , Spring, JMS,  Kanban, Maven, SWT, Swing."
+- title: Java Senior Developer @CheckMarx
+  years: '2013'
+  description: "Development of Eclipse and InteliJ Idea plugins."
+- title: Java Senior Developer @NCR (Retalix)
+  years: '2012'
+  description: "Development of warehouse optimization software. \n\n
+                * Technologies used: JBoss, Hibernate ,JMS SCRUM, Maven, Jenkins.."

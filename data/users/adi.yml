@@ -1,0 +1,83 @@
+---
+id: 49
+login: adi
+first_name: Adi
+last_name: Baron
+description: Java & JS Architect
+about: Over 18 years of experience. Specializes in Enterprise Application Design,
+  Analysis and Development, Cloud Computing, Horizontal Scale, and Big Data.
+follow_me_urls: []
+image_path: pictures/picture-49-1361229065.jpg
+permalink: /java/adi
+skills:
+  expert_skills:
+    JavaScript: '15'
+    Using threads: '7'
+    SQL: '15'
+    Designing Database Schema: '12'
+    Creating ERD: '12'
+    Implementing Data Access Classes: '12'
+    Hibernate: '9'
+    Spring: '9'
+    EJB\EJB3: '12'
+    JPA: '7'
+    JDBC: '12'
+    Scala: '6'
+    JSP&TagLib: '13'
+    Struts\Struts2: '9'
+    GWT: '7'
+    Linux OS-desktop: '10'
+    Linux OS-power user: '10'
+  developer_skills:
+    NoSQL: '4'
+    MapReduce: '2'
+    Servers: '3'
+    Processing: '3'
+    Play-Framework: '6'
+    Akka: '2'
+    MyFaces: '7'
+    RichFaces: '7'
+    Wicket: '4'
+    Grails: '4'
+    Eclipse/RCP: '4'
+    Swing: '15'
+    Writing scripts: '10'
+    Install and Configure 3rd parties application: '10'
+    MySQL: '5'
+experience:
+- title: 3iMind
+  years: '2013-2014'
+  description: "* Technologies stack selection \n
+                * Design (from scratch) of a micro-services based OSINT system \n
+                * Lead the POCs stage \n
+                * High level tasks breakdown \n
+                * Mentoring and technological knowledge transfer \n
+                * DevOps infrastructure  \n
+                * Services infrastructure & business logic \n
+                * DevOps: Gradle, SBT, Vagrant, Ansible, Linux, Jenkins, Artifactory, Git \n
+                * Languages: Akka, Scala, Java, JavaScript, Groovy \n
+                * Frameworks: Play!, Spring 4 (Boot), AngularJS, Hystrix, Curator, Swagger \n
+                * Infrastructures: Hadoop, HDFS, Spark, RabbitMQ, Kafka, NodeJS \n
+                * Databases: PostgreSQL, MongoDB, HBase, Redis, ElasticSearch"
+- title: LivePerson
+  years: '2013'
+  description: "* Worked as part of the team developing the new LP Web UI and as part of the team developing the monitoring system \n
+                * Spring OAuth, RESTful API, Backbone/Marionette, SASS, JVM Performance Tuning, Performance Profiling"
+- title: VMWare
+  years: '2012'
+  description: "* Hyperic: Monitoring System \n
+                * Technologies used: Spring, RESTful API, Cassandra, ExtJS"
+- title: Time To Know
+  years: '2011'
+  description: "* Design and development of a highly performant JavaScript framework for dynamic content playing of educational content \n
+                * OO JavaScript, HTML5 CSS3, and jQuery. The company's future flagship is based on this framework"
+- title: Aternity
+  years: '2009-2010'
+  description: "* Architectural/Technological leading and development \n  
+                * Server-Side - Spring, Hibernate & Raw SQL (Oracle) \n
+                * Client-Side - Rich UI in Flex"
+- title: SolarEdge
+  years: '2008-2009'
+  description: "* Architectural/Technological leading and development of a solar field monitoring system \n
+                * Server-Side - Spring, Hibernate & Raw SQL (MySQL) for processing huge amounts of data that is sent from the solar-fields \n
+                * Client-Side - Implementation from scratch of a chart widget (with specific requirements) in ActionScript (Flex)"

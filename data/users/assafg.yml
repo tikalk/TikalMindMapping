@@ -1,0 +1,78 @@
+---
+id: 126
+login: assafg
+first_name: Assaf
+last_name: Gannon
+description: JS & Java Architect<br>Head of Tikal Studio
+about: Over 14 years working on start-ups in the gaming industry and SaaS projects, senior
+  level engineer with vast experience in end-to-end system development.
+follow_me_urls:
+  - https://www.linkedin.com/profile/view?id=105182702&trk=nav_responsive_tab_profile
+image_path: pictures/assafg.jpg
+permalink: /js/assafg
+skills:
+  expert_skills:
+    JavaScript: '9'
+    JAVA: '14'
+    Spring: '8'
+    jQuery: '7'
+    SQL: '10'
+    JDBC: '10'
+    Tomcat: '8'
+    NoSQL: '4'
+    NodeJS: '4'
+  developer_skills:
+    Hibernate: '5'
+    EJB2/3: '5'
+    MongoDB: '4'
+    Redis: '3'
+    MySQL: '5'
+    AngularJS: '2'
+    Android: '3'
+experience:
+- title: Help to move product from concept to Production <i>Budgetao</i>
+  years: '2014-2015'
+  description: "Budgetao is a startup that develops an IT budget management system. My role was to help the startup go from concept to production. As the project chief architect I was responsible for choosing the technology stack, setting development milestones, data modelling, deployment strategy, and development workflows.\n
+                The technology stack consists of:\n\n
+                * SailsJS - a full blown application framework based on NodeJS and ExpressJS\n
+                * MongoDB - Main persistency\n
+                * Redis - Object cache\n
+                * AngularJS - Client app"
+- title: Establish a new server-side infrastructure for <i>Tabtale</i>
+  years: '2014'
+  description: "The goal of the project was to set up a server side support for a large scale mobile games production operation with hundreds of client apps
+    and millions of active users.\n
+    My role was the Architect of the project and my responsibilities included:\n\n
+    * Architectural design of a service oriented server and administration portal\n
+    * Technical design and choosing the technology stack\n
+    * Building a team of 3 developers and team leader\n
+    * Boiler-plating the projects and environments\n
+    * Set up the CI and deployment procedures\n\n
+    The tecnologies we used included:\n\n
+    * Java with Spring 4\n
+    * NodeJS with Express\n
+    * MongoDB & Redis\n
+    * AngularJS\n
+    * Logstash with Elasticsearch & Kibana\n"
+- title: Hands on technical leader @ IDI Ventures
+  years: '2013'
+  description: "led a team of UI engineers, and development of Web-Mobile-Client .  Update
+    the development and deployment process of the company''s CMS. I Creating a scalable
+    and up-to-date system with cutting edge (NodeJS, ExpressJS, AngularJS, Grunt,
+    Jasmine, MongoDB, Redis). and made technology improvement such as:\n\n
+      * Introduced NodeJS server side technologies\n
+      * Added code testing and continuos integration \n
+      * Added Jenkins managed deployments\n
+      * Introduces SCRUM methodology."
+- title: Cross-browser mobile client optimization for <i>Amobee</i>
+  years: 2012-2013
+  description: Developing JS for Mobile. Fixed and stabilised the mobile web advertisement
+    framework. Including Cross browser (mobile browsers) support for native JS code.
+- title: Re-factoring a monolithic application for <i>YouAppi</i>
+  years: '2012'
+  description: "Lead a process to improve the applications scalability and performance.\n
+    The process included: \n\n
+      * Re-factoring a monolithic application into several service oriented applications.\n
+      * Better usage of Redis as an object cache and pub-sub system.\n
+      * Converting blocking tasks to asynchronous jobs.\n
+      * Integraation"

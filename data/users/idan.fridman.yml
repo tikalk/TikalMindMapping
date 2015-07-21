@@ -1,0 +1,62 @@
+---
+id: 14300
+login: idan.fridman
+first_name: Idan
+last_name: Fridman
+description: Java Server Side Developer
+about: Java Server Side Expert with over 6 years experience in the industry.
+       Take part in consultancy and lectures of cutting edge BigData solutions.
+follow_me_urls:
+- https://www.linkedin.com/profile/view?id=77376269
+image_path: pictures/idanfridman.jpg
+permalink: /java/idanfridman
+skills:
+  expert_skills:
+    Java: '6'
+    Spring: '5'
+    JDBC: '5'
+    Linux: '4'
+    Developing Java Classes: '6'
+    Threads: '4'
+    Implementing Data Access Classes: '4'
+    Spring Data: '3'
+    EJB\EJB3: '3'
+    Linux OS-power user: '4'
+    Tomcat: '5'
+    Clustering: '4'
+  developer_skills:
+    JPA: '3'
+    Maven: '3'
+    MySQL: '4'
+    SQL: '4'
+    Schema: '4'
+    Hibernate: '4'
+    JSP&TagLib: '2'
+    Linux OS-Desktop: '4'
+    JBoss: '3'
+    Tuning: '2'
+    Bugzilla: '2'
+    Subversion: '2'
+experience:
+- title: Java Architect @ Playtika
+  years: '2014-Now'
+  description: "* Hands on Architect \n
+                * Responsible for designing robust push mechanism for millions of users every day \n
+                * Configure client demands and designed the system using new technology together with the company's existed technologies \n
+                * The system was design to be scaled from first draft. Based design according to micro \n
+                  - services architecture using Spring-boot/Spring-batch, Storm, Kafka and Couchbase technologies\n
+                * The system pushed messages to different endpoints(Mail Service, Facebook, Mobile and more) \n 
+                  Involved with in the implementation of the system \n
+                * Today the system is serving million of users a day"  
+- title: Java Server Side Developer @ Cellebrite
+  years: '2013-2014'
+  description: "* A technologist leader of the group \n
+                * Responsible of  Authentication and Authorization system architecture design and implementation(SSO, Multiple protocols, HA, Clustering, Caching..) from scratch using Spring/Spring Security and other authentication APIS(Ldap, SAML, Etc....)\n
+                * Redesigned an exited system. The CDA  application was responsible for handling multiple end point devices transactions\n
+                * Later on created user management which was able to perform search and aggregations using ElasticSearch\n
+                * The information was stored inside ElasticSearch(NO-SQL DB)"
+- title: Java Server Side Developer @ Mentor Graphics
+  years: '2013'
+  description: "* Part of R&D team which was responsible for an on-line electronic parts store which built Electric circuits on demand using streaming technologies \n 
+                * Technologies used: Spring/Spring MVC, Hibernate, Solr"
+                

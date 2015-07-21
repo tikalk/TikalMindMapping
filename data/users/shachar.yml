@@ -1,0 +1,29 @@
+---
+id: 39
+login: shachar
+first_name: Shachar
+last_name: Ben-Zeev
+description: CI & CM Expert
+about: ''
+follow_me_urls: https://www.linkedin.com/profile/view?id=125193622
+permalink: /devops/shachar
+skills:
+  expert_skills:
+    Bugzilla: '5'
+    Jira: '5'
+    Subversion: '10'
+    Luntbuild: '3'
+    Jenkins / Hudson: '5'
+    Artifactory: '5'
+    Maven: '3'
+  developer_skills:
+    Java: '7'
+    Bash / Shell: '5'
+    Linux OS end user: '5'
+    AWS: '1'
+    GIT: '5'
+    Chef: '1'
+    Nexus: '2'
+    Vagrant: '1'
+    ANT: '3'
+    

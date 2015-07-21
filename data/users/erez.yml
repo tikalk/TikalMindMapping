@@ -1,0 +1,57 @@
+---
+id: 24208
+login: erez
+first_name: Erez
+last_name: Carmel
+description:
+about: ''
+follow_me_urls: []
+permalink: /js/erez
+image_path: pictures/Erez.jpg
+
+skills:
+  expert_skills:
+    Cross Browser Development: '15'
+    Creating Custom JS Classes: '7'
+    OOP Javascript: '7'
+    Retrieving response content: '5'
+    Working with promises: '2'
+    jQuery: '5'
+    Angular.js: '2'
+    Jasmine: '2'
+    Chrome Devtools: '7'
+    CSS 3: '2'
+    SASS: '2'
+  developer_skills:
+    Javascript Optimizing For Performance: '15'
+    Binding Events: '2'
+    Closures: '7'
+    NodeJS: '2'
+    Node.js: '2'
+    Expressjs: '2'
+    Mocha: '1'
+    karma: '2'
+    FireBug: '7'
+    Developer Toolbar (IE): '7'
+    CSS 3 transitions & animations: '2'
+    Ecmascript 5: '2'
+experience:
+- title: JavaScript Developer @Gigaspaces
+  years: '2013-2015'
+  description: "Gigaspaces is a middleware technology company, providing software middleware for deployment, management and scaling applications on cloud environment. \n\n
+                Lead developer in the UI team. The team was responsible to develop the Cloudify user interface, the company main strategic product. \n
+                The development included debugging of the server side, using Unix, and writing Shell scripts for automation.\n\n
+                * Developing the product user interface \n
+                * Developing the product backend \n
+                * Developing user interface design \n
+                * Writing unit tests & system tests for both frontend & backend \n
+                * Writing user interface official documentation \n
+                * Communicating & syncing with Server team \n
+                * Communicating & syncing with product management team \n
+                * Configure build automation environment \n\n
+                The technologies the team was using included: \n\n
+                * AngularJS - Frontend development \n
+                * NodeJS/Express - Backend development \n
+                * Sass - Frontend design \n
+                * Jasmine/Mocha/Karma - Unit testing \n
+                * Quickbuild/Jenkins - Automation environment"

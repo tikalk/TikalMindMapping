@@ -1,0 +1,53 @@
+---
+id: 74
+login: dmitri
+first_name: Dmitri
+last_name: Krasnenko
+description: Java Architect
+about: Senior Java server side expert, with architecture experience and a passion for challenges
+follow_me_urls: ['https://www.linkedin.com/profile/view?id=3364890&authType=NAME_SEARCH&authToken=vOju&locale=en_US&trk=tyah2&trkInfo=tarId%3A1417087921124%2Ctas%3Admitr%2Cidx%3A1-1-1']
+image_path: pictures/Dmitri1.jpg
+permalink: /java/dmitri
+
+skills:
+  expert_skills:
+    JAVA: '10'
+    SQL: '6'
+    no-sql: '2'
+    Hibernate: '7'
+    spring: '7'
+    JDBC: '6'
+  developer_skills:
+    Spark: '1'
+    storm: '1'
+    Solr Lucene ElasticSearch: '1'
+    scala: '1'
+    Akka: '1'
+    HTML JS: '6'
+    Opensatck: '2'
+    EC2: '2'
+    Chef: '2'
+    Jenkins: '2'
+
+experience:
+- title: Senior Java Expert @ ALCATEL-LUCENT LTD
+  years: '2012-Today'
+  description: "Member of the team accountable for the full project life cycle design,development and research of a Java-based network, cloud and application monitoring and data analysis sub-system that is used at the core of the Alcatel-Lucent Cloud Enablement product line using J2EE, Scala, Spring,Hibernate, and Apache CXF technologies.\n\n
+   Key Accomplishments:\n\n
+   - Hosted internal and public workshops of Apache Cassandra and Apache Spark.\n
+   - Designed and implemented applications for a near real time data analysis using the Spark and Spark Streaming APIs.\n
+   - Designed, championed and implemented a platform for the future data analysis system based on Spark Standalone Cluster using Java, Scala, Spark and Spark Streaming technologies.\n
+   - Research and comparison of big data technologies such as Apache Spark and Apache Storm as a basis for a future data analysis sub system.\n
+   - Designed and implemented a new platform for a cloud monitoring system working with time series data in distributed manor by utilizing the abilities of Cassandra cluster using Java, Spring, Apache CXF technologies.\n
+   - Designed, championed and implemented the dynamic architecture for optimally place services in a CloudBand environment using Java and Spring Technologies\n
+   - Designed, championed and implemented the modules architecture as a platform for further system components development using Java, Spring and Apache CXF.\n
+   - Designed and implemented a fast and scalable statistical data module,intended to gather and store an extremely large amount of hierarchical data on an hourly, daily, weekly and yearly basis.\n"
+- title: Senior Java Expert @ VERINT LTD
+  years: '2009-2012'
+  description: "Member of the team accountable for the full project life cycle design and development of the multithreaded, distributed system, designed for capture,distill, and to analyze complex and underused information sources (such as voice, video and unstructured text) using Java EE, Spring, Hibernate, EJB3,JDBC and JMS technologies.\n\n
+   Key Accomplishments:\n\n
+   - Led software engineering activities and provided technical leadership to the software development teams.\n
+   - Designed and championed the user authorization solution utilizing EJB Interceptors and AOP approaches.\n
+   - Designed and implemented the Single Sign-On Kerberos based module using Spring Security and Spring Kerberos extensions.\n
+   - Designed and implemented a pluggable, dynamically deployed reports system, based on JBoss Service MBeans technology.\n
+   - Designed and implemented a fast, reliable and highly available messaging system, intended to process large amounts of data using HornetQ."

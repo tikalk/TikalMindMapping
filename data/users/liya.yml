@@ -1,0 +1,39 @@
+---
+id: 50
+login: liya
+first_name: Liya
+last_name: Katz
+description: DevOps Architect
+about: ALM / DevOps Architect with vast experience of consulting in the software industry, design and implementation of CM / CI / CD processes based on open source tools. 
+follow_me_urls: []
+image_path: pictures/picture-50-1361228790.jpg
+permalink: /devops/liya
+skills:
+  expert_skills:
+    Jenkins: '6'
+    Linux: '10'
+    Maven: '8'
+    SVN: '10'
+    Bugzilla: '10'
+    ANT: '10'
+  developer_skills:
+    JAVA: '5'
+    Ansible: '1'
+    CouchDB: '3'
+    Git: '4'
+    HTML: '5'
+    JavaScript: '5'
+    Python: '5'
+    Perl: '10'
+    SQL: '10'
+    MySQL: '10'
+experience:
+- title: ALM & DevOps Expert, Group Leader
+  years: '2004-Present'
+  description: "* Short term and long term consulting for following companies: Skybox Security, Olista, Optier, CMC Markets, ClearForest (Thomson Reuters), Aitech, Gamescale, Alcatel Lucent, SAP & many others.\n
+                * Design and implementation of CM/ALM processes - branching model, workflow definition, setup and ongoing support. Setup and integration of ALM tools such as SVN, Git, Bugzilla, Jira, Sonar, Jenkins & more. \n
+                * Build Engineering - over 10 years of experience on writing and maintaining build solutions for variety of projects based on Ant and Maven. \n
+                * Design and implementation of CI/CD and other automated processes - based on Jenkins combined with scripts (bash, python, perl, windows batch) and use of various Jenkins plugins.\n
+                * Experienced with automatic deployment with Ansible \n
+                * Design and development of internal customer specific tools (like Log Analyzer, Lab Manager, Test Manager) - written in Python & JS or based on open source tools and libraries. \n
+                * Group Leader of Tikal ALM/DevOps group \n"

@@ -1,0 +1,31 @@
+---
+id:   
+login: adic
+first_name: Adi
+last_name: Carmel
+description: JS Developer
+permalink: /js/adic
+skills:
+  expert_skills:
+    Binding Events: '3'
+    C#: '4'
+    jQuery: '3'
+    Google Chrmoe DevTools: '3'
+  developer_skills:
+    Cross Browser Development: '3'
+    Javascript Optimizing For Performance: '1'
+    x-SQL (mysql, sql, other): '3'
+    Cross Browser Ajax: '3'
+    Checking responses status: '3'
+    Retrieving response content: '3'
+    knockout.js: '2'
+    knockout.js template engine: '2'
+    FireBug: '3'
+    Developer Toolbar (IE): '3'
+    CSS: '3'
+    CSS 3: '2'
+    CSS 3 transitions & animations: '2'
+    CSS Frameworks: '2'
+    CSS Layouts (flexbox, creating layouts): '2'
+    Cross brower compatibility: '2'
+    

@@ -1,0 +1,42 @@
+---
+id: 65
+login: oren
+first_name: Oren
+last_name: Weinberg
+description: Front End Developer
+about: 'Front End Developer with over 8 years of experience, with knowledge in JS, Flex, AngularJS, HTML, CSS and more'
+follow_me_urls: ['https://www.linkedin.com/profile/view?id=23519449&authType=NAME_SEARCH&authToken=FT_6&locale=en_US&srchid=1064050701417692128461&srchindex=1&srchtotal=8&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A1064050701417692128461%2CVSRPtargetId%3A23519449%2CVSRPcmpt%3Aprimary']
+image_path: pictures/orenw.jpg
+permalink: /js/oren
+
+skills:
+  expert_skills:
+    JavaScript: '3'
+    AngularJS: '2'
+    jQuey: '2'
+    Cross Browser Development: '2'
+
+  developer_skills:
+    Java: '3'
+    NodeJS: '1'
+    HTML: '2'
+    CSS3: '2'
+    Ajax: '2'
+    Express: '1'
+    Underscore: '1'
+    
+experience:
+- title: Front End Developer @ Verix
+  years: '2013-2014'
+  description: "Verix develops BI software.\n\n
+    - Design and development mobile application based on HTML.\n
+    - Part of team that develop an internal IDE in JS and AngularJS as a framwaork\n
+    - Working with Grunt, Less and using advanced capabilities of browsers like indexedDB in order to save data in client."
+- title: UI Developer @ Optier
+  years: '2009-2013'
+  description: "Optier develops software for monitoring and manage transactions.\n
+    Part of the UI team of the company, develops in JS, Flex and GWT.\n\n
+      - Working with the server team which included characterization, determining APIs and integration.\n
+      - In the early years the development done in Flex, develop framework for the product, writing components integrate and using third party MVC framework. (Pure MVC)\n
+      - In the last year as part of transition to SaaS product, develop in GWT Java Script using external libraries such as amChart to produce Charts and GoogleMap to show location on map transaction.\n
+      - Working with jQuery libraries, HandleBars and - Dojo."

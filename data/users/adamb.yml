@@ -1,0 +1,30 @@
+---
+id: 
+login: adamb
+first_name: Adam  
+last_name: Balali
+description: DevOps Engineer  
+about: ''
+follow_me_urls:
+  - https://www.linkedin.com/profile/view?id=126696148
+permalink: /devops/adamb
+skills:
+  expert_skills:
+    Perl: '4'
+  developer_skills:
+    Bash / Shell: '4'
+    SQL: '2'
+    Linux OS administration: '4'
+    Linux OS end user: '4'
+    XEN: '2'
+    Monsoon (SAP Private Cloud): '1'
+    GIT: '3'
+    Make: '3'
+experience:
+- title: Private Cloud Consultant for SAP
+  years: '2014-2015'
+  description: "* Design and Develop Chef Cookbooks and Ruby scripts for SAP products in EC2 compliant cloud based environment.\n
+                * Develop and publish Documentation material using Middleman. \n
+                * Develop an installer for setting a developer environment using NSIS (Nullsoft Installer).\n
+                * Training SAP development teams about Chef, Ruby, Git and SAP private cloud. \n
+                * Troubleshooting and support."

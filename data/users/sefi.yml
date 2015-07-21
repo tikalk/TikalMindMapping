@@ -1,0 +1,46 @@
+---
+id: 56
+login: sefi
+first_name: Sefi
+last_name: Ninio
+description: JS Architect
+about: 'Developer and consultant with vast knowledge and expertise in Full Stack technologies, including JS, JQuery, AngularJS, GWT, JAVA, NodeJS and more'
+follow_me_urls: ['https://www.linkedin.com/profile/view?id=5864063&authType=NAME_SEARCH&authToken=b3CS&locale=en_US&srchid=1064050701418216856751&srchindex=1&srchtotal=1&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A1064050701418216856751%2CVSRPtargetId%3A5864063%2CVSRPcmpt%3Aprimary']
+image_path: pictures/picture-56-1361370127.jpg
+permalink: /js/sefi
+skills:
+  expert_skills:
+    ActionScript: '5'
+    JavaScript: '2'
+    Cross Browser Development: '2'
+    jQuery: '2'
+    AngularJS: '2'
+    CSS: '2'
+  developer_skills:
+    JAVA: '1'
+    GWT: '1'
+
+experience:
+- title: Fullstack Architect @ eVigilo
+  years: 2014
+  description: "POC project for a product to be used by the IDF. Built from scratch,
+  including project architecture and frameworks development using JQuery/AngularJS/JS as well as SCSS, bootstrap, etc.
+  This also required the creation of core components that can alter be extended and used throughout the project code as it progresses,
+  client side cache frameworks, i18n etc."
+- title: JavaScript Developer @ CA Technologies
+  years: 2013
+  description: "Core framework components development using JS/AngularJS that were designed to be used by other team members,
+  requiring deep knowledge and understanding of AngularJS lifecycle and included Services, Directives and Filters as well as generic form validation mechanism."
+- title: UI Expert @ Amobee
+  years: '2012'
+  description: "GWT technical lead of the project from day 1, including architecture design, GWTP, MVP,
+  project setup and architecture, GWT-RPC, rich graph visualization framework and the development of a dedicated components library.
+  Also consulted on UX/UI principals and instructed other team members on GWT/GWTP."
+- title: UI Expert @ Ravello
+  years: '2011'
+  description: "GWT technical lead, architecture, design and UX."
+- title: Flex Expert @ Optier
+  years: '2008-2011'
+  description: "AS3/Flex consultant, including design and architecture.
+  Taking the product from POC to maturity using various AS3/Flex technologies and MVC frameworks.
+  Lead the migration effort from Flex 3 to Flex 4.5 as well as taking part in the mobile app."

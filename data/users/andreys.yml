@@ -1,0 +1,60 @@
+---
+id: 115
+login: andreys
+first_name: Andrey
+last_name: Shuster
+description: JavaScript Developer
+about: 'Fullstck developer'
+follow_me_urls: ['https://www.linkedin.com/profile/view?id=29331468&authType=NAME_SEARCH&authToken=fGj1&locale=en_US&trk=tyah2&trkInfo=tarId%3A1417007559870%2Ctas%3Aandrey%20shuster%2Cidx%3A1-1-1']
+image_path: pictures/picture-115-1383560665.jpg
+permalink: /js/andreys
+skills:
+  expert_skills:
+    OOJS: '5'
+    JavaScript: '7'
+    PYTHON: '3'
+    MSSQL: '5'
+    jQuery: '4'
+    BackboneJS: '2'
+    CSS3: '2'
+    HTML: '7'
+  developer_skills:
+    AngularJS: '1'
+    NodeJS: '1'
+    Django: '1'
+
+experience:
+- title: Fullstack Developer @ Zebra Med
+  years: '2014-2015'
+  description: " Working on search frontend for medical imaging research platform.
+Search UI should be user friendly and highly customisable.
+Includes multiple autocomplete fields, various tags, histograms of existing results, picture viewer and all this with fast responsible interface.
+Got bad designed spaghetti application and turned it to modular, easy to develop, update and change. Used Require.js and lodash to achieve this"
+- title: Fullstack Developer @ YIT
+  years: '2014'
+  description: "Started to build CMS for Ynet from scratch.
+CMS should be dynamic and extensible with builder for custom components by clients.
+Created 3 different prototypes.\n\n
+  - with Backbone.js\n
+  - with Angular.js\n
+  - Django + MongoDB as backend\n\n
+Also showed current team how to use git, linux console and created deployment processes right way."
+- title: JavaScript Developer @ Optier
+  years: 2013-2014
+  description: "Rewrote the application's UI GWT & jQuery code with Bootstap and
+    refactored existing code using Backbone.js conventions. Also, removed inlined
+    strings and replaced it with external resources file in JSON format. In addition
+    - UI for configuration and statistics monitoring of transactions was written from
+    scratch with heavy use of Backbone framework unique features and abilities."
+- title: JavaScript Developer @ Time to Know
+  years: 2013
+  description: "Developed a platform for digital learning. This application is written with HTML5, Backbone.js, jQuery, Bootstrap, works on iPad and Android tablets via PhoneGap, uses browser features like Offline Storage and Web filesystem API, I worked on different reports and statistics features for teachers and students."
+- title: JavaScript Developer @ GetTaxi
+  years: 2012
+  description: "Worked with Ruby on Rails mostly on server side tasks.
+Billing system for Israeli credit card users. Invoicing, refunding and credit card registration with Veripay terminals.
+Small and Medium Business (SMB) rides features. 
+Worked with Test Driven Development methods with RSpec as testing suite"
+- title: Web Developer @ Fbhatchery
+  years: 2011-2012
+  description: "Developing Facebook application with Ruby on Rails using REDIS and MySQL as database back-end and Heroku as cloud hosting. Data mining is organized via Heroku's IronWorkers ans sophisticated calculations algorithms. Code optimization for fast calculations and good user experience. Koala gem used for data retrieval. "

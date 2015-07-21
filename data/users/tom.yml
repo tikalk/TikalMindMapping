@@ -1,0 +1,45 @@
+---
+id: 125
+login: tom
+first_name: Tom
+last_name: Caspy
+description: Sr. Ruby Developer
+about: ''
+follow_me_urls: []
+image_path: pictures/picture-125-1383560559.jpg
+permalink: /ruby/tom
+skills:
+  expert_skills:
+    RoR: '3'
+    Ruby: '3'
+  developer_skills:
+    SQL: '7'
+    CSS3: '7'
+    HTML: '3'
+    OOJS: '3'
+    NodeJS: '3'
+    MongoDB: '3'
+  familiar_skills:
+    BackboneJS: '1'
+experience:
+- title: Sr. Ruby Developer @RedHat
+  description: "Working at RedHat on the Foreman project - Provisioning, configuration and management system for physical and virtual servers. \n
+                Took initiative on migrating the system from rails 3.2 to 4.1. Did some work on decoupling the system from Puppet so it can be used with any Config Management system. \n
+                Worked with APIs of virtually all Open Source VM providers in the market, and contributed our fixes to the relevant gems (mostly fog)."
+- title: Sr. Ruby Developer @Spot.IM
+  description: "At Spot.IM I've moved their infrastructure from Heroku to AWS, introduced chef (client-server) and automatic scaling based in monitoring data from Sensu. \n
+                Managed their Redis deployement and sharding, bringing average latency down to about 21ms at an average of 10K RPM and peaks of 100K RPM. Led the move to writing \n
+                unit and acceptance tests (until I got there, there were only integration tests). Wrote ActiveRedis which is an open source ORM for Redis, mimicking ActiveRecord and Mongoid, \n
+                and completely transformed the code infrastru.\n
+                Cture from naive code to a more scalable and extendable design."
+- title: Sr. Ruby Developer @Nurea
+  description: "The first Server Side developer. Creating a platform that connects to many other product's API's and bindes them (creating rules and interoperability, such as IFTTT physical products). \n
+                Built the system from scratch, TDD, while keeping future scale in mind, with very felxible and modular architecture that will make it easy to add new products and rules in the future. \n
+                Built the array of servers for staging & production. Worked with Big Data, Knowledge of MongoDB. \n
+                In addition, thought the VP R&D to develop in Ruby on Rails."
+- title: Sr. Ruby Developer @FTBPro
+  description: "* Moved the development from MDD, introduced the pull-request workflow with github, hence, code review has become part of life.\n 
+                * Tought the team to write specs, and we reached 15% coverage of legacy code, and 100% coverage of all new code, as we moved to TDD. \n
+                * Moved to Amazon, created an elastic setup, automatically scaling when needed, etc. Deploys became daily, small and much faster, due to capistrano and hubot (the faithful chatroom robot). \n
+                * Added a CI machine, all Pull Requests now have commit statuses with test passing/failing indication. \n
+                * Written several important parts of the system, most of which were tied to the backend and core of the business."

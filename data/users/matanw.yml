@@ -1,0 +1,44 @@
+---
+login: matanw
+first_name: Matan
+last_name: Werbner
+description: JavaScript Developer
+about: JavaScript developer with experience using Node, Angular, Bower, Jasmine, Grunt and more
+follow_me_urls: ['https://www.linkedin.com/profile/view?id=62763284&authType=NAME_SEARCH&authToken=1me_&locale=en_US&srchid=1064050701416899766058&srchindex=1&srchtotal=1&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A1064050701416899766058%2CVSRPtargetId%3A62763284%2CVSRPcmpt%3Aprimary']
+image_path: pictures/matanw.jpg
+permalink: /js/matanw
+skills:
+  expert_skills:
+    JavaScript: '3'
+    Binding Events: '3'
+    jQuey: '1'
+    C#: '5'
+    ASP.NET: '3'
+  developer_skills:
+    Cross Browser Development: '3'
+    AJAX: '5'
+    AngularJS: '2'
+    CSS: '3'
+    SQL: '5'
+    
+experience:
+- title: Fullstack Developer @ Check Point
+  years: '2014-Present'
+  description: 
+    "- Creating a graphical interface based on D3 + animations, and TopoJSON using angular.js. \n
+     - Consuming push notifications from the server via atmosphere.js. \n
+     - Customizing charts.js and using it to display graphs. \n
+     - Refactoring and consulting the company in it's launch of a re-branded main website. \n
+     - Creating a fully responsive UI using bootstrap - mobile friendly. \n
+     - App can be seen on the company's main site (checkpoint.com - threatcloud)"
+- title: Fullstack Developer @ SundaySky
+  years: '2014'
+  description: 
+    "- Maintaining and adding features to an existing SPA application, built using angular.js, that consumes a Restful API from the server side built with java and jersey.\n
+    - Adding new features in new or existing pages, as well as optimizing performance and improving general code quality in the app.\n
+    - Working on end-to-end tasks involving server side coding in J2EE with hibernate, jersey and gradle.\n
+    - On the client side, the work involved angular components - controllers, directives and services, while using grunt, bower and several 3rd party plug-ins: ui-router, ui-bootstrap, lodash, flow.js and more.\n
+    - The product Used a Jenkins build pipeline, with grunt and gradle as build automation tools, and SVN as source control.\n
+    - Introduced Angular's UI-Router as a way of improving navigation within the application, which made possible using controller inheritence ,nested views, and resolving dependencies prior to controller load.\n
+    - Introduced a way of cache-busting static resources calls per-build by using a grunt task 'grunt-replace'.\n
+    - Other tasks involved optimizing the application's performance by eliminating redundent calls, and refactoring code for greater usability."

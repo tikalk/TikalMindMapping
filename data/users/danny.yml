@@ -1,0 +1,44 @@
+---
+id: 105
+login: danny
+first_name: Danny
+last_name: Lesnik
+description: Java Developer
+about: ''
+follow_me_urls: []
+permalink: /java/danny
+skills:
+  expert_skills:
+    Java: '7'
+    Using threads: '7'
+    Implementing Data Access Classes: '7'
+    Hibernate: '7'
+    Spring: '7'
+    JPA: '7'
+    AJAX: '5'
+  developer_skills:
+    SQL: '7'
+    Designing Database Schema: '7'
+    NoSQL: '3'
+    JDBC: '7'
+    JSP: '5'
+    Struts/Struts2: '2'
+    Eclips: '7'
+    Swing: '1'
+experience:
+- title: Java Developer H@Harmonic
+  years: '2012-2013'
+  description: "Provides the supply chain infrastructure that enables content and service providers to engage and prosper in today's multiscreen video economy. \n
+                Developing distribution management system for Turner, which responsible for CNN satellite distribution over North America. \n
+                Close partnership with embedded team over developing device management protocol. \n
+                Integrating third party products as part of global software solutions. \n
+                Used Server Side Frameworks: Spring, Hibernate, JPA, ActiceMQ, Jax WS, Netty, EhCache, JDBC, Quartz and Apache Camel."
+- title: Java Developer @Oraca
+  years: '2011-2012'
+  description: "Providing support and development services to customer on Java related technologies. \n
+                Used Server Side Frameworks: Spring, Hibernate, Spring MVC, Struts 2,Netty, JPA, Jax WS, Axis 2, JSF 2, EhCache, JDBC, Servlet 3.0.\n
+                Used Client Side Frameworks:  JQuery, Dojo, RichFaces. HTML5. \n
+                Used Databases: Oracle, MongoDB, Mysql, HSQLDB. \n
+                Test Frameworks: Junit, Mockito, Jmock.\n
+                ALM frameworks: Maven, Ant, Jenkins."
+

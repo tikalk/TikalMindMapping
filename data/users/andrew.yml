@@ -1,0 +1,83 @@
+---
+id: 40
+login: andrew
+first_name: Andrew
+last_name: Skiba
+description: Senior Java Expert & Consultant
+about: Over 17 years of experience in the software industry, has vast experience in
+  Java Server development, in technologies such as Spring, Hibernate, EJB3 etc.
+follow_me_urls:
+- https://www.linkedin.com/profile/view?id=80848
+image_path: pictures/picture-40-1361178042.png
+permalink: /java/andrew
+skills:
+  expert_skills:
+    JAVA: '7'
+    Hibernate: '6'
+    Spring: '6'
+    EJB2/3: '4'
+    JPA: '4'
+    Linux: '10'
+    Tomcat: '7'
+    SVN: '7'
+  developer_skills:
+    SQL: '10'
+    JDBC: '10'
+    ANT: '10'
+    Maven: '10'
+  familiar_skills:
+    JavaScript: '10'
+    jQuery: '10'
+    Jenkins: '10'
+experience:
+- title: Java Architect & Developer @ Playtika
+  years: '2013-2015'
+  description: "* Leading an infrastructure redesign for the BackOffice project\n
+                * Creating module structure for a monolith 100K lines project, using Spring AOP to remove 4K lines of boilerplate code\n
+                * Replacing JDBC-SQL data access layer with jOOQ framework\n
+                * Creating authorization layer with Spring Security and CAS\n
+                * Writing auditing to Kafka topic\n
+                * Co-developed async HTTP Storm bolt"
+- title: Java Architect & Developer @ KMS
+  years: '2012-2013'
+  description: "* KMS Studio - new product prototype using Play 2.1 and Scala 2.10\n
+                  Research and pilot projects in cooperation with linguist, algorithmist, PMs, etc. Enhanced Tika open source library and contributed code\n
+                * Supporting and consulting young developers with their tasks on the Knowledge Base project using Solr, Groovy, Spring, Hibernate, Quarz, Xalan, Tika, Angular.js"
+- title: Java Expert @ Mentor Graphics                
+  years: '2012'
+  description: "* Kick start of large major project rewrite from .Net to Java\n
+                * Created the project structure, evaluated in-house event distribution system, defined the technology set, established development environment (Review Board,\n
+                  deployment, code quality tools), built self-complete deployables for single-board Linux devices\n
+                * Defined the architecture of the project, taught the new team to use Spring Integration for REST, two-way JMS communication \n
+                  and raw TCP/IP communication  \n
+                * Basic familiarity with Hazelcast in the clients project" 
+- title: Java Expert @ VMWare
+  years: '2011-2012'
+  description: "* In association with Chief Architect identified and solved complicated race conditions during large project modernization phase. \n
+                  EhCache, Hibernate, Spring transactions management, PostgreSQL. \n
+                * Lead server side developer in the Application Team, took ownership on a big chunk of in loosely integrated projects, \n
+                  and replaced it with a compact layer in the main application. RabbitMQ, Spring Integration, EasyMock, Spring Insight."
+- title: Java Expert @ ClearForest
+  years: '2009-2011'
+  description: "* A few RESTeasy based projects \n
+                * Jetty embedded servlet container\n
+                * Spring Integration, Hazelcast, Solr, Spring namespace based DSL"
+- title: Java Expert @ Imperva
+  years: '2009'
+  description: "* 3 months project to create a production module for a new major feature \n
+                * The module was ready in 2 months, and went to production as planned included AJAX front-end and WS back-end \n
+                * Used Spring Integration open source framework, and initiated a new feature being added into Spring Integration"
+- title: JavaEE architect @ BeeTV
+  years: '2008-2009'
+  description: "* Planning, design, setting up build and test environment, selecting technology \n
+                * Participated in the unique algorithm invention \n
+                * Made accepted contributions to Apache ServiceMix ESB project \n
+                * Worked with and extended EJB3, Spring, Hibernate, RESTeasy\n
+                * Hunted and solved performance bottlenecks in Java code and in Oracle SQL \n
+                * Trained the team to use Agile Database methodology, created tools for efficient database development in the team"
+- title: Technology Expert @ Pontis
+  years: '2007-2008'
+  description: "* Design and implementation a dynamic web services framework \n
+                * The dynamic web services  framework  allows creating and modifying web services declaratively, without any Java coding and without server downtime \n
+                * Extended Tomcat connector to enable measurement of TCP/IP backlog \n
+                * Ongoing tasks of the Chief Architect team"

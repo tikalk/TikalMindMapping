@@ -1,0 +1,27 @@
+---
+login: yossie
+first_name: Yossi
+last_name: Elkrief
+description: Android Expert
+about: Android expert with over 6.5 years of experience in Android development, 9 years Java background and 11 years of experience in software development.
+follow_me_urls: ['https://www.linkedin.com/profile/view?id=29286684&authType=NAME_SEARCH&authToken=4YA_&locale=en_US&trk=tyah2&trkInfo=tarId%3A1417075126009%2Ctas%3Ayoss%2Cidx%3A1-1-1']
+image_path: pictures/YossiE.jpg
+permalink: /android/yossie
+
+skills:
+  expert_skills:
+    Java: '10'
+    Android: '7'
+    Android SDK using Eclipse: '7'
+    NDK Development: '7'
+    Market Place Submission Process: '7'
+    Gradle: '7'
+    XML (UI Design): '7'
+    Sqlite: '7'
+    Android Content Providers: '7'
+  developer_skills:
+    iOS (IPhone, IPad): '7'
+    Objective C: '1'
+    iOS SDK using Xcode: '1'
+    SQL: '1'
+

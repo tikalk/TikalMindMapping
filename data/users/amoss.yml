@@ -1,0 +1,33 @@
+---
+login: amoss
+first_name: Amos
+last_name: Sonnenwirth
+description: CI & DevOps Engineer
+about: ''
+follow_me_urls:
+  - https://www.linkedin.com/profile/view?id=161597387
+permalink: /devops/amoss
+skills:
+  expert_skills:
+    Jenkins / Hudson: '3'
+    Artifactory: '3'
+    Maven: '5'
+  developer_skills:
+    Java: '8'
+    Bash / Shell: '3'
+    SQL: '8'
+    Servers (EC2, GAE): '4'
+    Linux OS end user: '4'
+    Clustering and High Availability: '4'
+    AWS: '4'
+    Tomcat: '4'
+    Subversion: '5'
+    Jenkins / Hudson: '3'
+    Nexus: '1'
+experience:
+- title: Build architect and Maven expert for Amdocs
+  years: '2015'
+  description: "* Designing and leading the Mavenization process at \"Amdocs\" Ordering (OMS) product \n
+                * Migrating existing Ant based build java project to Maven (HandsOn) \n
+                * implementing the BOM (Bill of Materials) methodology for easy integration with other Amdocs products \n
+                * Tight mentoring the team with Maven and Nexus best practices"

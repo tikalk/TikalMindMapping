@@ -1,0 +1,24 @@
+---
+login: MiriSayag
+first_name: Miri
+last_name: Mehamemet
+description: Mehamemet Od Yoter
+about: Over 29 years of gourgouseness
+follow_me_urls:
+  - http://il.linkedin.com/pub/miri-sayag/11/144/647/en
+image_path: pictures/miris.jpg
+permalink: /miris
+
+
+experience:
+- title: HR Coordinator @ Tikalk.com
+  years: '2014-2015'
+  description: "hello **world**\n
+    _Italic_
+    wfsdfsdfsdfdsfdsf\n\n
+    sfsdsdfsdfsdfsdf"
+- title: HR @ Tizi
+  years: '2000-2014'
+  description: "dfsdfsdfsdfsdfsdf\n
+    sdfsdfsdfsdf\n\n
+    erwfsdfsdfsdfsdf"
