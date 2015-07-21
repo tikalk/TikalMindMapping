@@ -1,6 +1,6 @@
 var mindmapApp = angular.module('mindmapApp', ['ngSanitize', 'ui.router']);
 
-mindmapApp.controller('main', ['$scope',function($scope) {
+mindmapApp.controller('main', ['$scope',function($scope) { 
     $scope.appName = 'Tikal Mind Mapping';
 }]);
 
@@ -16,7 +16,7 @@ mindmapApp.config(function ($stateProvider, $urlRouterProvider) {
         .state('experty', {
             url: "/experty",
             templateUrl: "app/experty/editExperty.tpl.html",
-            controller: ''
+            controller: 'ExpertyCtrl'
         })
         .state('graph', {
             url: "/graph",
