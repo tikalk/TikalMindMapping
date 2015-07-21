@@ -16,12 +16,6 @@ gulp.task('javascript', function() {
         .pipe(gulp.dest('client/build'));
 });
 
-gulp.task('watchjs', function () {
-    watch('client/app/**/*.js', function () {
-        return gulp.src('client/app/**/*.js')
-            .pipe(sourcemaps.init())
-            .pipe(concat('all.js'))
-            .pipe(sourcemaps.write())
-            .pipe(gulp.dest('client/build'));
-    });
+gulp.task('watch', function () {
+    gulp.watch(['client/app/**/*.js'],['javascript']);
 });
