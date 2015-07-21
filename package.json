@@ -21,10 +21,16 @@
   "bugs": {
     "url": "https://github.com/tikalk/TikalMindMapping/issues"
   },
+  "scripts":{
+    "start" : "node index"
+  },
   "homepage": "https://github.com/tikalk/TikalMindMapping#readme",
   "dependencies": {
     "babel": "^5.6.23",
     "express": "^4.13.1",
     "oriento": "^1.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
   }
 }
