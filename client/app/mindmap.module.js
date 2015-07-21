@@ -5,7 +5,7 @@ mindmapApp.controller('main', ['$scope',function($scope) {
 }]);
 
 mindmapApp.config(function ($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise("/employee");
+    $urlRouterProvider.otherwise("/employee");  
 
     $stateProvider
         .state('employee', {
