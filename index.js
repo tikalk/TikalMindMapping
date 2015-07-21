@@ -11,9 +11,9 @@ var users = require('./server/Users');
 app.use(express.static('client'));
 app.use('/libs',express.static('bower_components'));
 
-//var router  = express.Router();
-//router.use('/user', users.controller);
-//app.use('/backend', router);
+var router  = express.Router();
+router.use('/users', users.controller);
+app.use('/backend', router);
 
 var server = app.listen(3000, function () {
     var host = server.address().address;

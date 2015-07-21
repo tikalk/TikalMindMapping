@@ -49,4 +49,4 @@ sftp-config.json
 bower_components
 
 client/build
-
+**/dev

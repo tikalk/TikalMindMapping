@@ -3,41 +3,30 @@
  */
 var mindMapVars = mindMapVars || {};
 
-mindMapVars.mockGraphData =  [
+mindMapVars.mockGraphData =  {};
+
+mindMapVars.mockGraphData.src = [
     {
-        "name": "Creighton Hospital"
+        "name": "Tikal user 1",
+        "type": "source"
     },
     {
-        "name": "Heart Hospital"
+        "name": "Javascript",
+        "type": "target"
     },
     {
-        "name": "Marshall Regional Medical Center"
+        "name": "CSS",
+        "type": "target"
+    }
+];
+
+mindMapVars.mockGraphData.links = [
+    {
+        "source": 0,
+        "target": 1
     },
     {
-        "name": "McKennan Hospital & University Health Center"
-    },
-    {
-        "name": "Queen of Peace Hospital"
-    },
-    {
-        "name": "Sacred Heart Hospital"
-    },
-    {
-        "name": "St. Luke's Hospital"
-    },
-    {
-        "name": "St. Mary's Hospital"
-    },
-    {
-        "name": "Milbank Area Hospital"
-    },
-    {
-        "name": "Pipestone County Medical Center"
-    },
-    {
-        "name": "St. Michael's Hospital"
-    },
-    {
-        "name": "Wagner Community Memorial Hospital"
+        "source": 0,
+        "target": 2
     }
 ];

@@ -5,18 +5,27 @@ mindmapApp.controller('main', ['$scope',function($scope) {
 }]);
 
 mindmapApp.config(function ($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise("/employee");  
+    $urlRouterProvider.otherwise("/employees");  
 
     $stateProvider
+        .state('employees', {
+            url: "/employees",
+            templateUrl: "app/employee/listEmployee.tpl.html",
+            controller: 'EmployeeCtrl' 
+        })
         .state('employee', {
             url: "/employee",
             templateUrl: "app/employee/editEmployee.tpl.html",
-            controller: 'EmployeeCtrl'
+            controller: 'EmployeeCtrl' 
         })
         .state('experty', {
             url: "/experty",
             templateUrl: "app/experty/editExperty.tpl.html",
             controller: 'ExpertyCtrl'
+        })
+        .state('experties', {
+            url: "/experties",
+            templateUrl: "app/experty/listExperty.tpl.html"            
         })
         .state('graph', {
             url: "/graph",
