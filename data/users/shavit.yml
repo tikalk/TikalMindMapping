@@ -28,7 +28,7 @@ experience:
   years: '2014'
   description: 
     "A promising start-up that offers a security services to companies by providing security tools which alerts and monitors threats from inside like information theft, brute-force attack, unauthorized access, and more.
-The product interface build on top of Angular.JS framework and uses d3.js extensively for showing graphs and interactive visualizations.\n\n
+    The product interface build on top of Angular.JS framework and uses d3.js extensively for showing graphs and interactive visualizations.\n\n
       - Writing generic configurable (JSON) modules.\n
       - Building interactive visualizations using d3.js\n
       - Writing the client side unit-test infrastructure using karma\n
@@ -36,9 +36,8 @@ The product interface build on top of Angular.JS framework and uses d3.js extens
       - Writing Shell scripts (Unix)\n"  
 - title: Fullstack Developer @ My6Sense
   years: '2013'
-  description: 
-    "My6Sense provides a platform for advertisers. Their Big-Data, Machine-learning technology can find the semantic link between users and a content on websites (blogs) or mobile-apps then suggests suitable interactive ads for the user.
-My6Sense back office interface is build upon Angular.JS framework, uses Node.js and MySql DB.\n\n
+  description: "My6Sense provides a platform for advertisers. Their Big-Data, Machine-learning technology can find the semantic link between users and a content on websites (blogs) or mobile-apps then suggests suitable interactive ads for the user.
+    My6Sense back office interface is build upon Angular.JS framework, uses Node.js and MySql DB.\n\n
     Client Side:\n\n
       - Writing different modules by using all the angular.js arsenal: e.g directive, services, filters, views and controllers.\n
       - Embedding restrictions and roles mechanism.\n
