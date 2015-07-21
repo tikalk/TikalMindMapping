@@ -4,8 +4,15 @@
 angular.module('mindmapApp').factory('graphFactory',[function(){
     var graphData = mindMapVars.mockGraphData;
 
+
+
+    var getGraphData = function(options){
+        return graphData;
+    };
+
     return {
-        graphData: graphData
+        graphData: graphData,
+        getGraphData: getGraphData
     }
 
 
