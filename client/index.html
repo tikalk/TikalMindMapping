@@ -11,6 +11,8 @@
 </head>
 
 <body ng-controller="main">
+
+
     <nav>
         <div class="nav-wrapper" style="padding:0 10px;">
             <a href="#!" class="brand-logo">Tikal Mind Mapping</a>
@@ -31,6 +33,21 @@
             </ul>
         </div>
     </nav>
+
+
+   <div class="container" ui-view>{{appName}}</div>
+
+
+      <footer class="page-footer">         
+          <div class="footer-copyright">
+            <div class="container">
+            Tikal Mind Mapping           
+            </div>
+          </div>
+        </footer>
+            
+
+
     <script type="text/javascript" src="libs/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="libs/angular/angular.min.js"></script>
     <script type="text/javascript" src="libs/angular-sanitize/angular-sanitize.min.js"></script>
@@ -39,7 +56,7 @@
     <script type="text/javascript" src="libs/d3/d3.min.js"></script>
     <!-- make sure to run gulp watch &-->
     <script type="text/javascript" src="build/all.js"></script>
-    <div class="container" ui-view>{{appName}}</div>
+ 
     <script type="text/javascript">
     $(".button-collapse").sideNav();
     </script>
