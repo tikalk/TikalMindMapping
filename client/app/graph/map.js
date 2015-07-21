@@ -1,34 +1,13 @@
 angular.module('mindmapApp')
-    .directive('map', function() {
+    .directive('map', ['graphFactory', function(graphFactory) {
         return {
             restrict: 'EA',
             link: function(scope, element, attrs) {
 
-                var _src = [
-                    {
-                        "name": "Tikal user 1",
-                        "type": "source"
-                    },
-                    {
-                        "name": "Javascript",
-                        "type": "target"
-                    },
-                    {
-                        "name": "CSS",
-                        "type": "target"
-                    }
-                ];
 
-                var _links = [
-                    {
-                        "source": 0,
-                        "target": 1
-                    },
-                    {
-                        "source": 0,
-                        "target": 2
-                    }
-                ];
+                var options = {};
+                var graphData = graphFactory.getGraphData(options);
+
 
                 /* Set the diagrams Height & Width */
                 var h = 500, w = 950;
@@ -59,7 +38,7 @@ angular.module('mindmapApp')
                 function makeDiag() {
                     /* Draw the node labels first */
                     var texts = svg.selectAll("text")
-                        .data(_src)
+                        .data(graphData.src)
                         .enter()
                         .append("text")
                         .attr("fill", "black")
@@ -70,8 +49,8 @@ angular.module('mindmapApp')
                         });
                     /* Establish the dynamic force behavor of the nodes */
                     var force = d3.layout.force()
-                        .nodes(_src)
-                        .links(_links)
+                        .nodes(graphData.src)
+                        .links(graphData.links)
                         .size([w,h])
                         .linkDistance([250])
                         .charge([-1500])
@@ -79,7 +58,7 @@ angular.module('mindmapApp')
                         .start();
                     /* Draw the edges/links between the nodes */
                     var edges = svg.selectAll("line")
-                        .data(_links)
+                        .data(graphData.links)
                         .enter()
                         .append("line")
                         .style("stroke", "#ccc")
@@ -87,7 +66,7 @@ angular.module('mindmapApp')
                         .attr("marker-end", "url(#end)");
                     /* Draw the nodes themselves */
                     var nodes = svg.selectAll("circle")
-                        .data(_src)
+                        .data(graphData.src)
                         .enter()
                         .append("circle")
                         .attr("r", 20)
@@ -115,4 +94,4 @@ angular.module('mindmapApp')
                 };
             }
         };
-    });
+    }]);
