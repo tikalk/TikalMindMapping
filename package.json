@@ -1,0 +1,25 @@
+{
+  "name": "tikal-mind-mapping",
+  "version": "0.0.1",
+  "description": "Mapping of Tikal Employee skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tikalk/TikalMindMapping.git"
+  },
+  "keywords": [
+    "mindmap",
+    "skills",
+    "employees",
+    "expertise"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tikalk/TikalMindMapping/issues"
+  },
+  "homepage": "https://github.com/tikalk/TikalMindMapping#readme"
+}
