@@ -9,9 +9,13 @@
         .module('mindmapApp')
         .controller('ExpertyCtrl', Experty);
 
-    function Experty() {
+     Experty.$inject = ['expertyFactory'];
+
+    function Experty(expertyFactory) {
     	var vm = this;
     	vm.name = "Employee 2222";
+
+        vm.API = expertyFactory.API;
      }
 })();
 
