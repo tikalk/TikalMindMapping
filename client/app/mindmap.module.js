@@ -14,7 +14,7 @@ mindmapApp.config(function ($stateProvider, $urlRouterProvider) {
         .state('employee', {
             url: "/employee",
             templateUrl: "app/employee/editEmployee.tpl.html",
-            controller: ''
+            controller: 'EmployeeCtrl'
         })
         .state('experty', {
             url: "/experty",
