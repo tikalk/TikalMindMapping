@@ -1,4 +1,4 @@
-var mindmapApp = angular.module('mindmapApp', ['ngSanitize', 'ui.router', 'd3']);
+var mindmapApp = angular.module('mindmapApp', ['ngSanitize', 'ui.router']);
 
 mindmapApp.controller('main', ['$scope',function($scope) {
     $scope.appName = 'Tikal Mind Mapping';
