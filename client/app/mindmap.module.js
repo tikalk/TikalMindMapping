@@ -1,7 +1,4 @@
-/**
- * Created by robertferentz on 21/07/15.
- */
-var mindmapApp = angular.module('mindmapApp', ['ngSanitize', 'ui.router']);
+var mindmapApp = angular.module('mindmapApp', ['ngSanitize', 'ui.router', 'd3']);
 
 mindmapApp.controller('main', ['$scope',function($scope) {
     $scope.appName = 'Tikal Mind Mapping';
@@ -14,7 +11,7 @@ mindmapApp.config(function ($stateProvider, $urlRouterProvider) {
         .state('employee', {
             url: "/employee",
             templateUrl: "app/employee/editEmployee.tpl.html",
-            controller: ''
+            controller: 'EmployeeCtrl'
         })
         .state('experty', {
             url: "/experty",
@@ -24,6 +21,6 @@ mindmapApp.config(function ($stateProvider, $urlRouterProvider) {
         .state('graph', {
             url: "/graph",
             templateUrl: "app/graph/graph.tpl.html",
-            controller: ''
+            controller: 'GraphController'
         });
 });
