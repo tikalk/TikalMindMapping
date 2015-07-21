@@ -1,7 +1,7 @@
 /**
  * Created by shaiyerushalmi on 7/21/15.
  */
-angular.module('mindmapApp').factory('graphFactory',[function(){
+angular.module('mindmapApp').factory('graphFactory',['expertyFactory',function(expertyFactory){
     var graphData = mindMapVars.mockGraphData;
 
 

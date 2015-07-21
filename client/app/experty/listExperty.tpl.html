@@ -1,5 +1,10 @@
 <div ng-controller="ExpertyCtrl as experty">
     <h2 class="col s12 header">Experties</h2>
+
+    <div class="">
+        <button ng-click="experty.fetchAll()">Refresh list</button>
+    </div>
+    
     <div>
         <ul class="collection" ng-repeat="item in experty.collection">
             <li class="collection-item avatar">

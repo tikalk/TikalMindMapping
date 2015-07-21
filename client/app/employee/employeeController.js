@@ -28,6 +28,14 @@
                 }
             )
         }
+        vm.getId = function(item)
+        {
+            var id = item['@rid'].replace("#", "");
+
+            id = id.replace(/:/g, '_');
+
+            return id;
+        }
 
         vm.fetchAll();
 
