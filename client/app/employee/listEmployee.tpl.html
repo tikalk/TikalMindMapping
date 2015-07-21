@@ -2,13 +2,13 @@
     <h2 class="col s12 header">Employees</h2>
     <div>
         <ul class="collection" ng-repeat="item in employee.collection">
-            <li class="collection-item avatar">
-                <i class="material-icons circle red waves-effect waves-light">perm_identity</i>
+            <li ui-sref="graph.employee({id: item.first_name + '.' + item.last_name})" class="collection-item avatar">
+                <i  class="material-icons circle red waves-effect waves-light">perm_identity</i>
                 <span class="title">{{item.first_name}} {{item.last_name}}</span>
                 <p>{{item.description}}
-                    <br> {{item.about}}
+                    <br> {{ite.about}}
                 </p>
-                <a ui-sref="graph" target="_blank" class="secondary-content"><i class="material-icons">grade</i></a>
+                <a ui-sref='graph.employee' class="secondary-content"><i class="material-icons">grade</i></a>
             </li>
         </ul>
     </div>
