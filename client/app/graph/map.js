@@ -14,7 +14,7 @@ angular.module('mindmapApp')
                 /* Set the color scale we want to use */
                 var color = d3.scale.category20();
                 /* Establish/instantiate an SVG container object */
-                var svg = d3.select("body")
+                var svg = d3.select("#graphData")
                     .append("svg")
                     .attr("height",h)
                     .attr("width",w);
