@@ -11,9 +11,9 @@ var users = require('./server/Users');
 app.use(express.static('client'));
 app.use('/libs',express.static('bower_components'));
 
-var router  = express.router();
-router.use('/user', users.controller);
-app.use('/backend', router);
+//var router  = express.Router();
+//router.use('/user', users.controller);
+//app.use('/backend', router);
 
 var server = app.listen(3000, function () {
     var host = server.address().address;
@@ -22,4 +22,4 @@ var server = app.listen(3000, function () {
     console.log('Tikal mind mapping listening at http://%s:%s', host, port);
 });
 
-module.exports = app;
+//module.exports = app;
