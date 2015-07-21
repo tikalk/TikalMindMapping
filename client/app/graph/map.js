@@ -64,7 +64,8 @@ angular.module('mindmapApp')
                         .append("text")
                         .attr("fill", "black")
                         .attr("font-family", "sans-serif")
-                        .attr("font-size", "10px")
+                        .attr("font-size", "12px")
+                        .attr("font-weight", "bold")
                         .text(function(d) {
                             return d.name;
                         });
