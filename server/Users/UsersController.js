@@ -8,9 +8,25 @@ var router = express.Router();
 var logger = require('log4js').getLogger('UsersController');
 var _ = require('lodash');
 var request = require('request');
+var services = require('../services');
 
-function getUsers (req, res) {
-
+function getAllUsers (req, res) {
+    services.db.connect(function(db) {
+        db.select().from('Employee').all().then(function(users) {
+            res.status(200).send({users:users});
+        });
+    });
 }
 
-router.get('/user/getUsers', getUsers);
+function getAllSkills (req, res) {
+    services.db.connect(function(db) {
+        db.select().from('Skill').all().then(function(skills) {
+            res.status(200).send({skills:skills});
+        })
+    })
+}
+
+router.get('/user/all', getAllUsers);
+router.get('/skill/all', getAllSkills);
+
+module.exports = router;
