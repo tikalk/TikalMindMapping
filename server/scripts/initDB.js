@@ -6,14 +6,10 @@ var Promise = require('bluebird');
 var parseUsers = require('./parseUsers');
 var _ = require('lodash');
 var employees = parseUsers.parseUsers();
+var conf = require('../conf/dev/conf');
 
 function connect(){
-    var server = orientDB({
-        host: 'localhost',
-        port: 2424,
-        username: 'root',
-        password: 'qwe123'
-    });
+    var server = orientDB(conf.dbConf);
 
     return server;
 }
