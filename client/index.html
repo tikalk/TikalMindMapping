@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tikal Mind Mapping</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="libs/materialize/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="libs/materialize/dist/css/materialize.css">
+    <link rel="stylesheet" href="app/css/app.css">
 </head>
 
 <body ng-controller="main">
     <nav>
-        <div class="nav-wrapper">
+        <div class="nav-wrapper" style="padding:0 10px;">
             <a href="#!" class="brand-logo">Tikal Mind Mapping</a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
@@ -35,7 +36,7 @@
     <script type="text/javascript" src="libs/d3/d3.min.js"></script>
     <!-- make sure to run gulp watch &-->
     <script type="text/javascript" src="build/all.js"></script>
-    <div ui-view>{{appName}}</div>
+    <div class="container" ui-view>{{appName}}</div>
     <script type="text/javascript">
     $(".button-collapse").sideNav();
     </script>
