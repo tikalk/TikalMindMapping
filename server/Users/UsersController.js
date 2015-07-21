@@ -28,6 +28,37 @@ function getAllSkills (req, res) {
 
 function getUserSkills (req, res) {
     services.db.connect(function(db) {
+        db.query('select from Skilled where out = :rid)',{
+            params:{
+                rid:services.db.codeId(req.params.userId)
+            }
+        }).then(function(skillEdges){
+            if(skillEdges.length){
+                db.query('select name,@rid as id from :ids', {
+                        params:{ids:_.pluck(skillEdges,'in')
+                    }
+                }).then(function(skills){
+                    skills = skills || [];
+                    var result = skills.map(function(skill){
+                        var edge = _.find(skillEdges,{in:skill.id});
+                        return {
+                            skillID: skill.id,
+                            name:skill.name,
+                            rank:edge.rank,
+                            rating:edge.rating
+                        }
+                    });
+                    res.status(200).send(result);
+                });
+
+            }
+
+        });
+        //db.select().from('Skilled').where({out:services.db.codeId(req.params.userId)}).
+        //    all().
+        //    then(function(skills){
+        //        res.status(200).send(skills);
+        //    });
         //db.select()
     });
 }

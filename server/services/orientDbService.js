@@ -11,3 +11,11 @@ exports.connect = function (callback){
 
     callback(server.use('mindmap'));
 };
+
+exports.codeId = function(id) {
+    return '#' + id.replace('_',':');
+};
+
+exports.decodeId = function(id) {
+    return id.replace(':', '_').substring(1);
+};
