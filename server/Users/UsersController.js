@@ -27,14 +27,17 @@ function getAllSkills (req, res) {
 }
 
 function getUserSkills (req, res) {
-    services.db.connect(function(db) {
-        //db.select()
-    });
+    res.status(200).send({});
+}
+
+function getSkillUsers (req, res) {
+    res.status(200).send({});
 }
 
 router.get('/user/all', getAllUsers);
 router.get('/skill/all', getAllSkills);
 router.get('/user/skill/:userId', getUserSkills);
+router.get('/skill/user/:skillId', getSkillUsers);
 
 
 module.exports = router;
