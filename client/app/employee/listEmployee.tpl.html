@@ -1,37 +1,15 @@
 <div ng-controller="EmployeeCtrl as employee">
     <h2 class="col s12 header">Employees</h2>
-    <ul class="collection">
-        <li class="collection-item avatar">
-            <img src="images/yuna.jpg" alt="" class="circle">
-            <span class="title">Title</span>
-            <p>First Line
-                <br> Second Line
-            </p>
-            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-        </li>
-        <li class="collection-item avatar">
-            <i class="material-icons circle">folder</i>
-            <span class="title">Title</span>
-            <p>First Line
-                <br> Second Line
-            </p>
-            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-        </li>
-        <li class="collection-item avatar">
-            <i class="material-icons circle green">insert_chart</i>
-            <span class="title">Title</span>
-            <p>First Line
-                <br> Second Line
-            </p>
-            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-        </li>
-        <li class="collection-item avatar">
-            <i class="material-icons circle red">play_arrow</i>
-            <span class="title">Title</span>
-            <p>First Line
-                <br> Second Line
-            </p>
-            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-        </li>
-    </ul>
+    <div>
+        <ul class="collection" ng-repeat="item in employee.collection">
+            <li class="collection-item avatar">
+                <i class="material-icons circle red waves-effect waves-light">perm_identity</i>
+                <span class="title">{{item.first_name}} {{item.last_name}}</span>
+                <p>{{item.description}}
+                    <br> {{item.about}}
+                </p>
+                <a ui-sref="graph" target="_blank" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+        </ul>
+    </div>
 </div>

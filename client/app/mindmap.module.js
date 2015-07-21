@@ -4,7 +4,7 @@ mindmapApp.controller('main', ['$scope',function($scope) {
     $scope.appName = 'Tikal Mind Mapping';
 }]);
 
-mindmapApp.config(function ($stateProvider, $urlRouterProvider) {
+mindmapApp.config(function ($stateProvider, $urlRouterProvider) { 
     $urlRouterProvider.otherwise("/employees");  
 
     $stateProvider
