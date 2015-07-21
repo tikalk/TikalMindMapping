@@ -32,14 +32,14 @@ experience:
 - title: CM/CI/DevOps engineer @ RSA (EMC)
   years: ''
   description: "Imported a new product from the US to IL & designed a LAB for a new project.\n\n
-  Maintained RSA's development environment, designed the project structure (MAVEN build), created the Virtual appliance which is the shipping method of the product.\n\n
-  Replace of existing CI infrastructure from Cruise Control to Hudson and the Jenkins\n\n
-  Implement Maven / Maven bootstrap new projects\n\n
-  Finding release management solution via Jenkins and custom scripting\n\n
-  create VMware based virtual appliance - project started from scratch. Design of Maven (maven 3.0) project layout from JAVA development to RPM repositories and finally create a Virtual appliance with thouse RPM. On the way implement a testing and integration testing strategy + integrate Fortify and Sonar\n"
+    Maintained RSA's development environment, designed the project structure (MAVEN build), created the Virtual appliance which is the shipping method of the product.\n\n
+    Replace of existing CI infrastructure from Cruise Control to Hudson and the Jenkins\n\n
+    Implement Maven / Maven bootstrap new projects\n\n
+    Finding release management solution via Jenkins and custom scripting\n\n
+    create VMware based virtual appliance - project started from scratch. Design of Maven (maven 3.0) project layout from JAVA development to RPM repositories and finally create a Virtual appliance with thouse RPM. On the way implement a testing and integration testing strategy + integrate Fortify and Sonar\n"
 - title: Cloud & Automation Consultant @ SAP
   years: ''
   description: "Consulting for cloud infrastructure and chef automation, help client on board cloud services and chef automation.\n\n
-  The technological process: start from 0 customers and add more and more via Training and Coding on behalf of different products in the SAP portfolio.\n\n
-  Developed the training materials, trained software groups within SAP on how to use the cloud and automation aspects, In many cases do the bootstrapping process from nothing until they can stand on both feet.\n\n
-  Technologies used: Jenkins, EC2-API, Ruby,hands-on chef coding.\n"
+    The technological process: start from 0 customers and add more and more via Training and Coding on behalf of different products in the SAP portfolio.\n\n
+    Developed the training materials, trained software groups within SAP on how to use the cloud and automation aspects, In many cases do the bootstrapping process from nothing until they can stand on both feet.\n\n
+    Technologies used: Jenkins, EC2-API, Ruby,hands-on chef coding.\n"

@@ -13,7 +13,7 @@ gulp.task('javascript', function() {
         .pipe(sourcemaps.init())
         .pipe(concat('all.js'))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('client/dist'));
+        .pipe(gulp.dest('client/build'));
 });
 
 gulp.task('watch', function () {
