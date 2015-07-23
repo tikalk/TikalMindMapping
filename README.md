@@ -7,7 +7,7 @@ FrontEnd: `AngularJS` & `ES6`
 BackEnd: `NodeJS` & `OrientDB`
 
 ## How to use  
-* Install OrientDB  
+* Install OrientDB & start it.  
 * Create a folder named `conf/dev` under `server` and inside it create a `conf.js` file.  
   The `conf.js` file contents should be similar to:  
 ```javascript  
